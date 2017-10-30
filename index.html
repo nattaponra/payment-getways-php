@@ -1,0 +1,20 @@
+<html>
+...
+<body>
+<form name="checkoutForm" method="POST" action="checkout">
+    <input type="hidden" name="description" value="Product order ฿100.25" />
+    <script type="text/javascript" src="https://cdn.omise.co/card.js"
+      data-key="pkey_test_58fx6mxffgdorir8t0f"
+      data-image="https://www.google.co.th/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+      data-frame-label="Google"
+      data-button-label="Pay now"
+      data-submit-label="Submit"
+      data-location="yes"
+      data-amount="10025"
+      data-currency="thb"
+      >
+    </script>
+    <!--the script will render <input type="hidden" name="omiseToken"> for you automatically-->
+</form>
+</body>
+</html>

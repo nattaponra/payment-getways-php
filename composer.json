@@ -1,0 +1,20 @@
+{
+  "name": "nattaponra/payment-getways-php",
+  "authors": [
+    {
+      "name": "Nattapon Rakthong",
+      "email": "nattapon@3dsinteractive.com"
+    }
+  ],
+  "require": {
+    "omise/omise-php": "^2.8",
+    "phpunit/phpunit": "^6.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "EPaymentGateway\\": "src"
+    }
+  },
+  "require-dev": {
+  }
+}
